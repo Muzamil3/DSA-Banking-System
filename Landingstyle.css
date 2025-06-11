@@ -1,0 +1,30 @@
+/* Landingstyle.css */
+
+#mainpane {
+    -fx-background-color:  #D3D3D3; /* black to dark grey */
+}
+
+.label {
+    -fx-text-fill: #FFA500; /* orange */
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #ADD8E6; /* yellow */
+    -fx-text-fill: #000000; /* black text */
+    -fx-font-weight: bold;
+    -fx-border-color: #00008B; /* orange border */
+    -fx-border-width: 2px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+.button:hover {
+    -fx-background-color: #FFA500; /* orange on hover */
+    -fx-text-fill: white;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(255,165,0,0.4), 10, 0, 0, 5);
+}

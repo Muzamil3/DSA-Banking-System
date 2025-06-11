@@ -1,0 +1,37 @@
+/* Landingstyle.css */
+
+/* Backgrounds */
+.anchor-pane {
+    -fx-background-color: #D3D3D3; /* Light grey */
+}
+
+/* TextField and PasswordField styling */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #FFA500; /* Orange */
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #FFD700; /* Yellow */
+    -fx-text-fill: #000000; /* Black */
+    -fx-font-weight: bold;
+    -fx-border-color: #FFA500; /* Orange border */
+    -fx-border-width: 2px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+.button:hover {
+    -fx-background-color: #FFA500; /* Orange on hover */
+    -fx-text-fill: white;
+}
+
+/* ImageView optional style */
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(255,165,0,0.4), 10, 0, 0, 5);
+}

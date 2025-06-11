@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Adminstyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banking_system.Adminlogincontroller">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="394.0" fitWidth="300.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Pics/bank%20admin%20login.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" layoutY="1.0" prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <TextField id="Textfield" fx:id="logintext" layoutX="76.0" layoutY="137.0" promptText="Login" />
+            <PasswordField fx:id="Passfield" layoutX="76.0" layoutY="175.0" promptText="Password" />
+            <Button fx:id="Backadmin" layoutX="39.0" layoutY="304.0" mnemonicParsing="false" onAction="#adminLoginPageBack" prefHeight="25.0" prefWidth="56.0" text="Back" />
+            <Button fx:id="loginbtn" layoutX="188.0" layoutY="304.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="25.0" prefWidth="56.0" text="Login" />
+            <Label fx:id="Incorrectlabel" layoutX="81.0" layoutY="98.0" prefHeight="29.0" prefWidth="198.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

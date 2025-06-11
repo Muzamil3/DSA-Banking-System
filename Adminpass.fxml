@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Adminpassstyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banking_system.Adminpasscontroller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pics/internet-banking-online-payment-technology-concept.jpg" />
+         </image>
+      </ImageView>
+      <HBox id="Logouthbox" fx:id="logoutbox" layoutX="456.0" layoutY="313.0" onMouseClicked="#Logout" prefHeight="50.0" prefWidth="123.0">
+         <children>
+            <Label fx:id="Logoutlabel" alignment="CENTER" prefHeight="48.0" prefWidth="76.0" text="Logout" textAlignment="CENTER">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="36.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/images.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <AnchorPane id="Topanchor" prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="65.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/3790140.png" />
+               </image>
+            </ImageView>
+            <Label id="welcomelabel" fx:id="topLabel" alignment="CENTER" layoutX="191.0" layoutY="9.0" prefHeight="36.0" prefWidth="256.0" />
+         </children>
+      </AnchorPane>
+      <VBox id="AddAccount" fx:id="addAccount" layoutX="27.0" layoutY="81.0" onMouseClicked="#Addacc" prefHeight="119.0" prefWidth="138.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="113.0" text="Add Account" />
+            <ImageView id="Addimage" fitHeight="61.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/35.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox id="RemoveAccount" fx:id="Removeacc" layoutX="27.0" layoutY="244.0" prefHeight="119.0" prefWidth="150.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="135.0" text="Remove Account" />
+            <ImageView fitHeight="60.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox id="EditAccountbox" fx:id="Editacc" layoutX="183.0" layoutY="81.0" prefHeight="119.0" prefWidth="138.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="32.0" prefWidth="97.0" text="Edit Account" />
+            <ImageView fitHeight="57.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/2%20(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox fx:id="Viewacc" layoutX="190.0" layoutY="244.0" prefHeight="119.0" prefWidth="138.0">
+         <children>
+            <Label id="ViewAccBox" alignment="CENTER" prefHeight="38.0" prefWidth="118.0" text="View Accounts" />
+         </children>
+      </VBox>
+      <VBox id="Searchacc" fx:id="Searchacc" layoutX="397.0" layoutY="81.0" prefHeight="57.0" prefWidth="150.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="123.0" text="Search Account" />
+         </children>
+      </VBox>
+      <VBox id="Transaction" fx:id="Transctions" layoutX="397.0" layoutY="156.0" prefHeight="57.0" prefWidth="150.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="123.0" text="Transaction" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
